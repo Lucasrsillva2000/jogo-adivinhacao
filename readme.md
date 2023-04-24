@@ -32,8 +32,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto 06 é uma criação de uma Landing-Page para aplicar o conhecimento de JavaScript, CSS e HTML.
 
-- [Visite o projeto online](https://lucasrsillva2000.github.io/jogo-adivinhacao/)
-
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/QzPJ5qqDrG6ZqMa43Cyvgz/Jogo-Adivinha%C3%A7%C3%A3o-Copy?fuid=1034394130614339097). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
