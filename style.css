@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -9,9 +12,10 @@
 }
 
 body {
-  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
   font-size: 1.6rem;
+  background: linear-gradient(315deg, #c2e9fb 0%, #a1c4fd 100%);
 
+  /*centralizou no meio da tela a caixa*/
   display: grid;
   place-items: center;
   height: 100vh;
@@ -20,14 +24,14 @@ body {
 body,
 button,
 input {
-  font-family: 'Dm sans', sans-serif;
+  font-family: 'Dm Sans', sans-serif;
 }
 
 button {
-  background-color: #7879f1;
+  background: #7879f1;
   color: white;
   font-weight: bold;
-  border-radius: 0 0.4rem 0.4rem 0;
+  border-radius: 0px 0.4rem 0.4rem 0px;
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -41,31 +45,32 @@ button:hover {
 }
 
 main {
-  background: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   border-radius: 0.6rem;
+  background: #fff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 4.8rem 6.4rem 6.4rem;
 
-  width: min(42.8rem, 90%);
+  width: min(
+    42.8rem,
+    90%
+  ); /*pegue o minimo entre dois valores, ou seja ele pega o 42.8rem, caso a tela fique menor que esse valor, ele vai pegar os 90%.*/
 
-  margin-top: -12rem;
+  /*margin: 0 auto; centraliza a caixa no meio*/
+
+  margin-top: -12rem; /* para subir um pouco a caixa*/
   text-align: center;
 }
 
-/*Screen1*/
+/* screen1 */
 h1 {
+  color: #34355b;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   margin-bottom: 1.6rem;
 }
 
-h1,
 p {
-  color: #34355b;
-}
-
-p {
-  opacity: 0.8;
+  color: rgba(52, 53, 91, 0.8);
 }
 
 form {
@@ -82,11 +87,11 @@ button {
 
 input {
   background-color: #dce2e9;
-  width: 5rem;
+  width: 6rem;
   border-radius: 0.4rem 0 0 0.4rem;
 }
 
-/*Screen2*/
+/* screen2 */
 
 h2 {
   font-size: 2.4rem;
