@@ -24,15 +24,13 @@ O Explorer é um programa completo que reúne tudo o que você precisa para dese
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML, CSS e JavaScript
 - Git e Github
 - Figma
 
 ## 💻 Projeto
 
-O projeto 06 é uma criação de uma Landing-Page para aplicar o conhecimento de JavaScript, CSS e HTML.
-
-- [Visite o projeto online](https://lucasrsillva2000.github.io/jogo-adivinhacao/)
+O projeto 06 é uma criação de um jogo de adivinhação para aplicar o conhecimento de JavaScript, CSS e HTML.
 
 ## 🔖 Layout
 
